@@ -1,0 +1,93 @@
+  <html>
+      <head>
+          <title> form website </title>
+      </head>
+      
+      <body>
+          <h1> Student Admission Form </h1>
+          <h4> School admission form are proceed within 48 hrs <h4/>
+          
+          <form action="form">
+          
+              <span> Your Name </span> <input type="text" placeholder="First Name" name"first name"/>
+              <input type= "text" placeholder="Last Name" name="last name"/>
+              <br><br>
+              <span> Class you want to apply for</span> 
+
+          <select>
+
+              <option selected disabled> Select the class <option/>
+              <option> 8 class <option/>
+              <option> 9 class <option/>
+              <option> 10 class <option/>
+
+          </select>
+             
+              <br><br>
+
+              <span> Mobile Number </span> <input type="number"/>
+
+              <br><br>
+
+              <span> Student Birth Date <span/> <input type="date" name="dob"/>
+          
+              <br><br>
+
+              <span> Parent/ Guardian Name <span/> <input type="text" placeholder="First Name"/>
+              <input type="text" placeholder=" Last Name"/>
+
+              <br><br>
+
+              <span> Email Address <span/> <input type="email" placeholder="xyz@gmail.com" name="email id"/>
+          
+          
+              <br><br>
+
+              <span> Why do you want to join us <span/>
+
+              <br><br>
+
+              <textarea cols="40" rows="15" input type="text"></textarea>
+    
+              <br><br>
+
+              <span> Mode of  Payment: </span>
+              <input type="radio" name="yo"/> <span> Cash </span>
+              <input type="radio" name="yo"/> <span> Cheque </span>
+              <input type="radio" name="yo"/> <span> Card </span>         
+
+              <br><br>
+  
+              <input type="checkbox" name="checked in"/> <span> I agree all terms and condition</span>
+           
+              <br><br>
+
+              <input type="Submit"/> <input type="Reset"/>
+
+          </form>
+
+
+
+
+
+      </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </html>
